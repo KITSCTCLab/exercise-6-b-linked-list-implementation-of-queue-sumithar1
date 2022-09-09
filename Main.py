@@ -25,10 +25,10 @@ class Queue:
 
   def status(self) -> None:
         current = self.head
-    while current is not None:
-        print(current.data, end = "=>")
-        current = current.next
-    print("None")
+        while current is not None:
+          print(current.data, end = "=>")
+          current = current.next
+        print("None")
 
 
 # Do not change the following code
